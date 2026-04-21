@@ -57,13 +57,24 @@ No olvides verificar en qué directorio se encuentra el archivo Dockerfile
 ```
 
 **¿Cuántos pasos se han ejecutado?**
-# RESPONDER 
+se ejecutaron 5 pasos
+<img width="1520" height="539" alt="image" src="https://github.com/user-attachments/assets/25b0f7a0-50e5-4179-84af-8a48bb03a408" />
+
+
 
 ### Inspeccionar la imagen creada
-# COMPLETAR CON UNA CAPTURA
+<img width="1188" height="630" alt="image" src="https://github.com/user-attachments/assets/f03dc86d-578f-46f7-83c7-8bdd58baffbb" />
+<img width="1150" height="670" alt="image" src="https://github.com/user-attachments/assets/3ca088db-fd3c-4b35-b140-0aed7b9c75c2" />
+<img width="871" height="273" alt="image" src="https://github.com/user-attachments/assets/5df7df52-edb1-4452-906d-2d859abe44a1" />
+
+
 
 **Modificar el archivo index.html para incluir su nombre y luego crear una nueva versión de la imagen anterior**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
+Se ejecutaron 5 pasos, y la única diferencia que encientro es que fue muchisimo más rápido que la primera.
+<img width="1513" height="541" alt="image" src="https://github.com/user-attachments/assets/822d884a-8d7f-4e2c-899e-f8267f582f4d" />
+
+
 
 ## Mecanismo de caché
 Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso de construcción y evitar la repetición de pasos que no han cambiado. Cada instrucción en un Dockerfile crea una capa en la imagen final. Docker intenta reutilizar las capas de una construcción anterior si no han cambiado, lo que reduce significativamente el tiempo de construcción.
@@ -79,10 +90,13 @@ Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso
 ```
 
 ### ¿Con que puerto host se está realizando el mapeo?
-# COMPLETAR CON LA RESPUESTA
+En mi caso con el puerto 32768
+<img width="1454" height="182" alt="image" src="https://github.com/user-attachments/assets/a5791b57-9e14-41f5-91b4-06d26c12accf" />
+
 
 **¿Qué es una imagen huérfana?**
-# COMPLETAR CON LA RESPUESTA
+
+-Es una imagen que perdio su nombre y su etiqueta y que no esta asociada a ningun contenedor en ejecución.
 
 ### Identificar imágenes huérfanas
 ```
