@@ -57,6 +57,7 @@ No olvides verificar en qué directorio se encuentra el archivo Dockerfile
 ```
 
 **¿Cuántos pasos se han ejecutado?**
+
 se ejecutaron 5 pasos
 <img width="1520" height="539" alt="image" src="https://github.com/user-attachments/assets/25b0f7a0-50e5-4179-84af-8a48bb03a408" />
 
@@ -71,7 +72,8 @@ se ejecutaron 5 pasos
 
 **Modificar el archivo index.html para incluir su nombre y luego crear una nueva versión de la imagen anterior**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
-Se ejecutaron 5 pasos, y la única diferencia que encientro es que fue muchisimo más rápido que la primera.
+
+Se ejecutaron 5 pasos, y la única diferencia que encuentro es que fue muchisimo más rápido que la primera.
 <img width="1513" height="541" alt="image" src="https://github.com/user-attachments/assets/822d884a-8d7f-4e2c-899e-f8267f582f4d" />
 
 
@@ -90,6 +92,7 @@ Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso
 ```
 
 ### ¿Con que puerto host se está realizando el mapeo?
+
 En mi caso con el puerto 32768
 <img width="1454" height="182" alt="image" src="https://github.com/user-attachments/assets/a5791b57-9e14-41f5-91b4-06d26c12accf" />
 
